@@ -49,7 +49,7 @@ class ProductModel {
     ProductModel(
       image: AppImages.product3,
       name: AppStrings.october,
-      price: 140.0,
+      price: 40.0,
       description: AppStrings.reversibleAngoraCardigan,
     ),
   ];

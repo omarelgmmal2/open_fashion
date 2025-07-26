@@ -10,6 +10,35 @@ class TextStyleTheme {
     color: AppColor.primary,
   );
 
+  static TextStyle textStyle12Regular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.white,
+    fontFamily: "TenorSans",
+  );
+
+  static TextStyle textStyle16Regular = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.white,
+    height: 2.5,
+    fontFamily: "TenorSans",
+  );
+
+  static TextStyle textStyle18Regular = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.white,
+    fontFamily: "TenorSans",
+  );
+
+  static TextStyle textStyle15Regular = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.redShade200,
+    fontFamily: "TenorSans",
+  );
+
   static TextStyle textStyle18medium = TextStyle(
     fontSize: 18.sp,
     fontWeight: FontWeightHelper.medium,

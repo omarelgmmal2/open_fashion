@@ -25,6 +25,13 @@ class TextStyleTheme {
     fontFamily: "TenorSans",
   );
 
+  static TextStyle textStyle14Regular = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.black,
+    fontFamily: "TenorSans",
+  );
+
   static TextStyle textStyle18Regular = TextStyle(
     fontSize: 18.sp,
     fontWeight: FontWeightHelper.regular,

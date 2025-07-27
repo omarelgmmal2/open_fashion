@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {
   final String text;
+  final Widget? icon;
   final TextStyle? textStyle;
   final ButtonStyle? buttonStyle;
   final VoidCallback onPress;
@@ -12,16 +13,18 @@ class AppButton extends StatelessWidget {
     required this.onPress,
     this.buttonStyle,
     this.textStyle,
+    this.icon,
   });
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
+    return ElevatedButton.icon(
       style: buttonStyle,
       onPressed: onPress,
-      child: Text(
+      icon: icon,
+      label: Text(
         textAlign: TextAlign.center,
-        text,
+        text.toUpperCase(),
         style: textStyle,
       ),
     );

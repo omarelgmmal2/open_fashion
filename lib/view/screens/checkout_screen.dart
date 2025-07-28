@@ -72,7 +72,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
               ],
             ),
           ),
-          verticalSpace(20),
+          verticalSpace(25),
           AppButton(
             textStyle: TextStyleTheme.textStyle16Regular.copyWith(height: 1.5),
             text: "Checkout".toUpperCase(),
